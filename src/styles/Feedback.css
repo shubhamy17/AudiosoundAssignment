@@ -21,6 +21,11 @@ button {
   padding: 40px;
   margin-top: 20px;
 }
+.mainform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 input {
   width: 30%;
 }

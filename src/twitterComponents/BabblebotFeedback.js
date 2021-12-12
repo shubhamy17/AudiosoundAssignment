@@ -6,7 +6,8 @@ function BabblebotFeedback() {
   return (
     <div>
       <Babblebot />
-      <div className="Form">
+      <div className="mainform"> 
+       <div className="Form">
         <div>
           <h1>Feedback</h1>
         </div>
@@ -29,6 +30,8 @@ function BabblebotFeedback() {
         </div>
       </div>
 
+      </div>
+     
       <Footer />
     </div>
   );
