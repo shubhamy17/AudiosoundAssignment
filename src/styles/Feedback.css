@@ -1,0 +1,40 @@
+button {
+  color: black;
+  padding: 4px;
+  width: 15%;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.textarea{
+  height: 100px;
+   width:20vw
+}
+.submit {
+  background-color: #4285f4;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  /* width: 45%; */
+  margin: auto;
+  padding: 40px;
+  margin-top: 20px;
+}
+input {
+  width: 30%;
+}
+
+@media only screen and (max-width:420px) {
+
+  button{
+    width:70%;
+  }
+  input {
+    width:100%;
+  }
+  .textarea{
+    width: 50vw;
+  }
+
+}
